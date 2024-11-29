@@ -1,0 +1,10 @@
+server {
+    listen 80;
+    server_name qerp.kz;
+    root /var/www/qerp;
+    index index.html;
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+}

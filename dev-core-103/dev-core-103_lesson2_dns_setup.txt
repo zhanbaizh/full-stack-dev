@@ -1,0 +1,2 @@
+Name:	qerp.kz
+Address: 64.226.95.106
